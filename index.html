@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning Wheel|Firdavs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div class="firdavs-label">Made by Firdavs💯💻💯</div>
+
+    <main class="wheel-section">
+        <div class="wheel-wrapper">
+            <div class="marker"></div>
+            <canvas id="wheelCanvas" width="500" height="500"></canvas>
+            <div class="spin-center" id="spinBtn">
+                <span>SPIN</span>
+            </div>
+        </div>
+    </main>
+
+    <div id="winnerModal" class="modal">
+        <div class="modal-content">
+            <div class="winner-icon">🏆</div>
+            <h1 id="fullWinnerName"></h1>
+            <button id="closeBtn">DAVOM ETISH</button>
+        </div>
+    </div>
+
+    <footer class="bottom-footer">
+        <p class="security-note">This website is hard secured website. Hacker can't watch you.</p>
+        <div class="credits-row">
+            <span class="author">Made by Firdavs</span>
+            <div class="socials">
+                <a href="https://t.me/@FirdavsY_2011" target="_blank" class="social-btn tg-btn">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://github.com/elmiramaxmudova34-lang" target="_blank" class="social-btn git-btn">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
